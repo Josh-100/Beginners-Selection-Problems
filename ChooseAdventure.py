@@ -1,5 +1,3 @@
-TrueFalse = False
-
 print("You wake up in a forest with no recollection of how you got there.")
 print("All you know is- you want to go home!")
 option1 = input("You see a village in the distance, but a sudden chill makes you shiver. You realise you're butt-naked! Do you want to find some clothes first or go straight to the village? (Clothes/Village)")
@@ -26,7 +24,6 @@ while True:
             break
         else:
             option2 = input("Not a valid answer! Yes or No!")
-            TrueFalse = True
     elif option1.lower() == "village":
         print("You trudge up to the village. Suddenly, a man pops out of nowhere and is so startled to see you naked, he accidently shoots you with a bow! Game over!")
         break
